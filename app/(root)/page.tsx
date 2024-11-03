@@ -1,3 +1,5 @@
+import SearchForm from "../components/SearchForm";
+
 export default function Home() {
   return (
     <>
@@ -12,9 +14,7 @@ export default function Home() {
           Competitions.
         </p>
 
-       {/* 
-        <SearchForm query={query} />
-        */}
+        <SearchForm  />
       </section>
        
     </>
