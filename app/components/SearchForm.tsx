@@ -1,12 +1,10 @@
 import Form from "next/form";
 import SearchFormReset from "./SearchFormReset";
-const SearchForm = () => {
-    const query = 'test'
+import { Search } from "lucide-react";
 
-   
+const SearchForm = ({query}:{query?: string }) => {
   return (
-    <Form
-    className="search-form    "
+    <Form className="search-form"
       action="/"
       scroll={false}
     >
@@ -14,13 +12,15 @@ const SearchForm = () => {
         className="search-input"
         name="query"
         defaultValue={query}
-        placeholder="Search Startup "
+        placeholder="Search 
+        Startup "
           />
           <div className="flex gap-2">
-              {query && (
-                  
-              <SearchFormReset                                                                                                               />
-              )}
+        {query && <SearchFormReset />}
+        <button type="submit" className="search-btn text-white" >
+
+        <Search className="size-5"/>
+        </button>
 
           </div>
     </Form>
