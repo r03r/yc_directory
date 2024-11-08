@@ -1,6 +1,8 @@
 # YC-Directory-weld.vercel.app
 
-Revisa la URL: https://yc-directory-weld.vercel.app
+[//]: <> (This is also a comment.)
+[//]: <> (Revisa la URL: https://yc-directory-weld.vercel.app)
+Revisa la URL: [Revisa la URL](https://yc-dir-wd.vercel.app)
 
 ## Iniciar el proyecto
 
