@@ -1,6 +1,6 @@
-# [NOMBRE DE TU PROYECTO]
+# YC-Directory-weld.vercel.app
 
- Revisa la URL: https://yc-directory-weld.vercel.app/?query=huuygygy
+Revisa la URL: https://yc-directory-weld.vercel.app
 
 ## Iniciar el proyecto
 
@@ -18,4 +18,5 @@ Para iniciarte con el proyecto, solo necesitas ejecutar el comando:
 Puedes empezar editando la página modificando el archivo `app/page.tsx`. La página se actualizará automáticamente mientras editas el archivo.
 
 **Nota:** El proyecto utiliza next/font para optimizar y cargar automáticamente la fuente "Geist".
-```
+
+**Proyecto:** [Ver demo](https://yc-directory-weld.vercel.app)
