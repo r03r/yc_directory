@@ -17,6 +17,13 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ q
 
         <SearchForm  query = {query} />
       </section>
+
+      <section className="section_container">
+        <p className="text-30-semibold">
+          {query ? `Buscar  Resultadoos para: "${query}" `: 'Todas las Empresas'}
+        </p>
+
+      </section>
        
     </>
   );
